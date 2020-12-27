@@ -6,7 +6,7 @@ class Classclick extends Component{
     render(){
         return(
             <div>
-                <button onClick={this.clicking}>Class Click</button>
+                <button onClick={this.clicking}>ClassClick</button>
             </div>
         )
     }
