@@ -6,7 +6,7 @@ class LifeCycleA extends Component{
         this.state=({
             name:'sushant'
         })
-        console.log("Constructor life cycleA")
+        console.log("Constructor lifecycleA")
     }
     static getDerivedStateFromProps(Props,state){
         console.log("getDerivedStateFromProps lifecycleA")
