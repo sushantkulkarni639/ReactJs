@@ -4,7 +4,7 @@ const Greet=(props)=>{
     // console.log(props);
     const{name,aka,children}=props;
     return(
-        <div><h1>hello {name} a.k.a {aka}</h1>
+        <div><h1>hello {name} a.k.a(Also Known As) {aka}</h1>
         {children}
         </div>
     ) 
