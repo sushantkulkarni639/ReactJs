@@ -15,6 +15,8 @@ import StyleSheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import { Fragment } from 'react';
+import FragmentDemo from './components/FragmentDemo';
 function App() {
   return (
     <div className="App">
@@ -34,7 +36,8 @@ function App() {
       {/* <StyleSheet primary={true}></StyleSheet> */}
       {/* <Inline></Inline> */}
       {/* <Form></Form> */}
-      <LifeCycleA></LifeCycleA>
+      {/* <LifeCycleA></LifeCycleA> */}
+      <FragmentDemo></FragmentDemo>
 
     </div>
   );
